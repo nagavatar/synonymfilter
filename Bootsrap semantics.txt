@@ -1,0 +1,44 @@
+Define word similarity ----> Results in thesaurus ------> Comapre thesaurus
+
+ Identifying similar words is an initial step in learning the
+definition of a word. This paper presents a method
+for making this first step. For example, given a corpus that includes the sentences in (1), our goal is to
+be able to infer that tezgiiino is similar to "beer",
+"wine", "vodka", etc. 
+
+a hyponym denoting a subtype and a hypernym or hyperonym denoting a supertype.(e.g. spoon is hyponym of cutlery)
+
+Bootstrapping semantics from text is one of the
+greatest challenges in natural language learning. 
+
+Manually constructed general-purpose dictionaries and
+thesauri include many usages that are very infrequent in a particular corpus or genre of documents. 
+- one of the 8 senses of "company" in
+WordNet 1.5 is a "visitor/visitant", which is a hyponym of "person".
+Secondly, certain word usages may be particular to a period of time, which
+are unlikely to be captured by manually compiled
+lexicons. For example, among 274 occurrences of
+the word "westerner" in a 45 million word San Jose
+Mercury corpus, 55% of them refer to hostages. If
+one needs to search hostage-related articles, "westemer" may well be a good search term. 
+
+
+The next section is concerned with similarities between words based on their distributional patterns. The similarity measure can then be used to
+create a thesaurus. 
+
+Our similarity measure is based on a proposal in
+(Lin, 1997), where the similarity between two objects is defined to be the amount of information contained in the commonality between the objects divided by the amount of information in the descriptions of the objects. 
+
+
+----------------------------------------------------------------------------------------------------------------------------------------------
+
+DISTRIBUTIONAL CLUSTERING OF ENGLISH
+WORDS
+
+
+From the practical
+point of view, word classification addresses questions
+of data sparseness and generalization in statistical language models, particularly models for deciding among
+alternative analyses proposed by a grammar.
+
+
